@@ -1,7 +1,7 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -9,74 +9,178 @@
   font-family: "Inter Tight", sans-serif;
   font-optical-sizing: auto;
 }
-body{
-    max-width: 1600px;
+body {
+  max-width: 1600px;
 }
 /* navbber style */
-nav{
-    height: 92px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #412567;
+nav {
+  height: 92px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #412567;
 }
-.menu{
-    display: flex;
-    gap: 50px;
+.menu {
+  display: flex;
+  gap: 50px;
 }
-nav li{
-    list-style: none;
-    color: #ffffff;
+nav li {
+  list-style: none;
+  color: #ffffff;
 }
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    color: #FFFFFF;
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
 }
-.linear{
-    background-image: linear-gradient(28deg,#F7E93F,#FB09B4,#9100F8);
-    color: transparent;
-    background-clip: text;
+.linear {
+  background-image: linear-gradient(28deg, #f7e93f, #fb09b4, #9100f8);
+  color: transparent;
+  background-clip: text;
 }
-.Subscribe-btn{
-    width: 135px;
-    height: 44px;
-    color: #FFFFFF;
-    padding: 10px;
-    border-radius: 40px;
-    border: none;
-    background-image: linear-gradient(28deg,#F7E93F,#FB09B4,#9100F8);
+.Subscribe-btn {
+  width: 135px;
+  height: 44px;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 40px;
+  border: none;
+  background-image: linear-gradient(28deg, #f7e93f, #fb09b4, #9100f8);
 }
-.menu-icon{
+.menu-icon {
+  display: none;
+  font-size: 22px;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* navbber style end */
+
+/* banner section style */
+.banner-container {
+  height: 760px;
+  background-image: url(../assets/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.banner-content {
+  padding-top: 100px;
+  text-align: center;
+}
+.circle-icon {
+  position: relative;
+}
+.micro-icon {
+  position: absolute;
+  bottom: 5px;
+}
+.new-badge {
+  position: absolute;
+  background-color: #00ff88;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px;
+  color: #1a0b2e;
+  box-shadow: 1px 2px 2px 1px #00ff8857;
+}
+.banner-heading {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #ffffff;
+  padding-top: 40px;
+}
+.banner-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-top: 24px;
+}
+.spotify-btn {
+  width: 200px;
+  height: 44px;
+  background-image: linear-gradient(28deg, #f7e93f, #fb09b4, #9100f8);
+  border: none;
+  border-radius: 40px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.subscribe {
+  color: #00ff88;
+  border: 1px solid #00ff88;
+  border-radius: 40px;
+  width: 147px;
+  height: 44px;
+  background-color: #40256700;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    width: 440px;
+  }
+  nav {
+    width: 440px;
+    height: 60px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+  .menu {
     display: none;
-    font-size: 22px;
-    color: #ffffff;
-    cursor: pointer;
-}
+  }
+  .Subscribe-btn {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
 
 
+  /* banner section */
+  .banner-container{
+    width: 440px;
+    height: 466px;
+  }
+  .circle{
+    width: 150px;
+    height: 150px;
+  }
+  .micro-icon{
+    width: 46.67px;
+    height: 70px;
+  }
+  .new-badge{
+    font-size: 8px;
+  }
+  .banner-heading{
+    font-size: 30px;
+  }
+  .banner-description{
+    font-size: 8px;
+  }
+  .spotify-btn{
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .icon1{
+    display: none;
+  }
+  .subscribe{
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .icon1{
+    display: none;
+  }
+  .icon2{
+    display: none;
+  }
 
-
-@media screen and (max-width:576px) {
-    body{
-        width: 440px;
-    }
-    nav{
-       width: 440px;
-       height: 60px;
-       
-        
-    }
-    .logo{
-        font-size: 24px;
-    }
-    .menu{
-        display: none;
-    }
-    .Subscribe-btn{
-       display: none;
-    }
-    .menu-icon{
-        display: block;
-    }
+  
 }
