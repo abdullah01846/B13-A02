@@ -236,6 +236,141 @@ nav li {
 
 
 
+/* featured section */
+.feature-container{
+    width: 1600px;
+    height: 1276px;
+    background-color: #1A0B2E;
+}
+.feature-headlin{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 120px;
+    text-align: center;
+
+}
+.feature-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature-card{
+    width: 380px;
+    height: 440;
+    background-color: #3a1c6396;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.feature-content{
+    padding: 20px;
+}
+.card-headlin{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+   
+}
+.card-description{
+   color: #cccbcb;
+   padding-top: 12px;
+}
+.time{
+    display: flex;
+    gap: 5px;
+    padding-top: 12px;
+}
+.time-color{
+    color: #00FF88;
+}
+
+.meet-hedlin{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 120PX;
+    text-align: center;
+}
+/* meet secttion */
+.meet{
+    width: 1600px;
+}
+.meet-container{
+    width: 1200px;
+    height: 280px;
+    background-color: #391a63af;
+    margin: 40px auto;
+    border-radius: 40px;
+    
+   
+}
+.meet-cotent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 30px;
+    
+}
+.meet-headlin{
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.meet-description{
+    color: #c4c0c0;
+    padding-bottom: 10px;
+}
+
+ .img-border{
+    border: 1px solid darkmagenta;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 3px;
+    
+ }
+
+
+
+  /* footer section style */
+ footer{
+    width: 1600px;
+    height: 412px;
+    background-image: url(../assets/footer-bg.png);
+    background-position: center;
+ }
+.footer-logo{
+    font-size: 64px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 29px;
+}
+.img-text{
+    display: flex; 
+    gap: 5px;
+    text-align: center;
+}
+.img-name{
+    font-size: 16px;
+    font-weight: 300;
+    color: #8f8d8d;
+}
+.all-text{
+    color: #535353;
+    text-align: center;
+    margin-top: 32px;
+    letter-spacing: 2.3;
+
+}
+
+
 @media screen and (max-width: 576px) {
   body {
     width: 440px;
@@ -394,4 +529,83 @@ nav li {
 
  
 }
+
+
+
+/* Featured section */
+ .feature-container{
+    width: 440px;
+    height: 1990px;
+ }
+ .feature-headlin{
+    font-size: 24px;
+ }
+ .feature-box{
+    flex-direction: column;
+ }
+ .meet-hedlin{
+    font-size: 24px;
+ }
+ .meet{
+    width: 440px;
+ }
+ .meet-container{
+    width: 400px;
+    height: 483px;
+    background-color: #391a63af;
+}
+.meet-cotent{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+.meet-headlin{
+    font-size: 19px;
+    text-align: center;
+}
+.meet-description{
+   font-size: 14px;
+}
+
+
+
+/* footer section */
+  footer{
+    width: 440px;
+    height: 248px;
+  }
+  .footer-logo{
+    font-size: 30px;
+    padding-top: 60px;
+}
+footer{
+    padding: 60px 16px;
+  }
+
+  .footer-logo{
+    font-size: 36px;     
+    padding-top: 0;
+  }
+
+  .footer-img{
+    flex-wrap: wrap;    
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .img-text{
+    justify-content: center;
+    width: 45%;        
+  }
+
+  .img-name{
+    font-size: 13px;
+  }
+
+  .all-text{
+    font-size: 12px;
+    margin-top: 24px;
+    letter-spacing: 1px;
+  }
 }
