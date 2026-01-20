@@ -64,13 +64,13 @@ nav li {
   background-image: url(../assets/hero-bg.png);
   background-position: center;
   background-size: cover;
-  
   position: relative;
   
 }
 .banner-content {
   padding-top: 100px;
   text-align: center;
+
 }
 .circle-icon {
   position: relative;
@@ -83,6 +83,7 @@ nav li {
   position: absolute;
   left: 50%;
   top: 50%;
+  transform: translate(-50%,-50%);
   
 
 }
@@ -96,6 +97,7 @@ nav li {
   border-radius: 20px;
   color: #1a0b2e;
   box-shadow: 1px 2px 2px 1px #00ff8857;
+  left: 55%;
 }
 .banner-heading {
   font-size: 60px;
