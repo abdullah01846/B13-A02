@@ -18,7 +18,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #412567;
+  background-color: rgb(26, 11, 46);
 }
 .menu {
   display: flex;
@@ -53,6 +53,9 @@ nav li {
   color: #ffffff;
   cursor: pointer;
 }
+.border1{
+  border: 1px solid rgb(37, 15, 65);
+}
 /* navbber style end */
 
 /* banner section style */
@@ -61,7 +64,9 @@ nav li {
   background-image: url(../assets/hero-bg.png);
   background-position: center;
   background-size: cover;
+  
   position: relative;
+  
 }
 .banner-content {
   padding-top: 100px;
@@ -70,9 +75,16 @@ nav li {
 .circle-icon {
   position: relative;
 }
+.circle{
+  position: relative;
+  
+}
 .micro-icon {
   position: absolute;
-  bottom: 5px;
+  left: 50%;
+  top: 50%;
+  
+
 }
 .new-badge {
   position: absolute;
@@ -167,7 +179,7 @@ nav li {
     font-weight: 200;
 
 }
-.fa-solid{
+.star-icon{
     font-size: 40px;
     font-weight: 300;
 }
@@ -180,7 +192,6 @@ nav li {
     width: 1600px;
     height: 1121px;
     background-color: #200d3a;
-    
 }
 .choose-card{
     padding: 2rem;
@@ -210,6 +221,7 @@ nav li {
   grid-template-columns: repeat(3, minmax(250px, 1fr));
   max-width: 1200px;
   margin: 0 auto;
+
 }
 
 .choose-card{
@@ -337,6 +349,7 @@ nav li {
     width: 1600px;
     height: 412px;
     background-image: url(../assets/footer-bg.png);
+    background-size: cover;
     background-position: center;
  }
 .footer-logo{
@@ -399,8 +412,8 @@ nav li {
     height: 466px;
   }
   .circle{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
   .micro-icon{
     width: 46.67px;
@@ -477,15 +490,18 @@ nav li {
   /* choose section */
   .choose-container{
     width: 440px;
-    height: 1450px;
+    height: 1200px;
+    
     
   }
   .coose-hedlin{
     font-size: 23px;
+    padding: 30px ;
   }
    .choose-headlin{
     font-size: 28px;
     padding: 50px 20px;
+   
   }
 
   .choose-content{
@@ -539,6 +555,7 @@ nav li {
  }
  .feature-headlin{
     font-size: 24px;
+    padding: 30px;
  }
  .feature-box{
     flex-direction: column;
@@ -590,7 +607,7 @@ footer{
 
   .footer-img{
     flex-wrap: wrap;    
-    gap: 16px;
+    gap: 8px;
     margin-top: 20px;
   }
 
