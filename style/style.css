@@ -493,6 +493,7 @@ nav li {
   .choose-container{
     width: 440px;
     height: 1200px;
+    padding-left: 20px;
     
     
   }
@@ -561,6 +562,7 @@ nav li {
  }
  .feature-box{
     flex-direction: column;
+    padding-left: 30px;
  }
  .meet-hedlin{
     font-size: 24px;
