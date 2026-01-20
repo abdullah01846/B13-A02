@@ -103,13 +103,13 @@ nav li {
   font-size: 60px;
   font-weight: bolder;
   color: #ffffff;
-  padding-top: 40px;
+  padding-top: 70px;
 }
 .banner-description {
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
-  padding-top: 24px;
+  padding-top: 8px;
 }
 .spotify-btn {
   width: 200px;
@@ -416,6 +416,7 @@ nav li {
   .circle{
     width: 200px;
     height: 200px;
+    margin: -40px;
   }
   .micro-icon{
     width: 46.67px;
@@ -423,9 +424,12 @@ nav li {
   }
   .new-badge{
     font-size: 8px;
+    top: -40%;
+    
   }
   .banner-heading{
     font-size: 30px;
+    
   }
   .banner-description{
     font-size: 8px;
